@@ -1,6 +1,5 @@
-// src/pages/Home.js
 import React from "react";
-import "./Home.css"; // هننشئه كمان شوية
+import "./Home.css";
 
 function Home() {
   return (

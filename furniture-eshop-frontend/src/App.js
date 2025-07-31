@@ -1,23 +1,27 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-
 // Pages
-import HomePage from "./features/Home/HomePage";
+import Landing from "./pages/Landing";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 import ProductsPage from "./features/Products/ProductsPage";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <Home />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<Landing />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/products" element={<ProductsPage />} />
-        {/* هنضيف باقي الصفحات هنا لاحقًا */}
       </Routes>
+      <Footer />
     </Router>
   );
 }

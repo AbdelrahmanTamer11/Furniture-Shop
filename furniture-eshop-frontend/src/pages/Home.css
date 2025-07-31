@@ -1,11 +1,14 @@
-/* src/pages/Home.css */
 .home {
     padding: 20px;
     font-family: Arial, sans-serif;
+    background-image: url('https://www.decorpion.com/wp-content/uploads/2019/08/1565693495_377_modern-chairs-that-will-quickly-transform-the-look-of-any-room.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 
 .hero {
-    background-color: #f0ebe1;
+    background-color: rgba(240, 235, 225, 0.8);
     padding: 60px 20px;
     text-align: center;
     border-radius: 10px;
@@ -42,7 +45,7 @@
 }
 
 .product-card {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 15px;
     border-radius: 8px;
     border: 3px solid #8B4513;

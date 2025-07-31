@@ -1,0 +1,51 @@
+.home {
+    background-image: url('https://www.decorpion.com/wp-content/uploads/2019/08/1565693495_377_modern-chairs-that-will-quickly-transform-the-look-of-any-room.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.home .cta-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.home .cta-buttons button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.home .cta-buttons .signup-btn {
+    background-color: #2e7d32;
+    color: white;
+}
+
+.home .cta-buttons .login-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.home .cta-buttons button:hover {
+    opacity: 0.8;
+}

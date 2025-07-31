@@ -1,4 +1,19 @@
+/* filepath: e:\BONDOK\Megasoft Task\Furniture-Shop\furniture-eshop-frontend\src\features\Products\ProductsPage.css */
 .products-page {
   text-align: center;
   padding: 40px;
+  background-image: url('https://www.decorpion.com/wp-content/uploads/2019/08/1565693495_377_modern-chairs-that-will-quickly-transform-the-look-of-any-room.jpg'); /* Replace with the actual path to your texture image */
+  background-size: cover;
+  background-position: center;
+  color: #333;
+}
+
+.products-page h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.products-page p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
 }

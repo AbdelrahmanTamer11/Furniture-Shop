@@ -1,7 +1,19 @@
-/* src/features/Home/HomePage.css */
-
 .home-page {
   text-align: center;
   padding: 50px;
   font-family: Arial, sans-serif;
+  background-image: url('https://www.decorpion.com/wp-content/uploads/2019/08/1565693495_377_modern-chairs-that-will-quickly-transform-the-look-of-any-room.jpg'); /* Add your modern furniture texture image here */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Change text color for better contrast */
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
 }
